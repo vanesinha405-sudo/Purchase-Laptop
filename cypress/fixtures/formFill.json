@@ -1,0 +1,21 @@
+{
+    
+    "Name": {
+        "name": "Vanessa"
+    },
+    "Country": {
+        "country": "Bolivia"
+    },
+    "City": {
+        "city": "Cochabamba"
+    },
+    "Card": {
+        "card": "1254879653"
+    },
+    "Month": {
+        "month": "12"
+    },
+    "Year": {
+        "year": "2026"
+    }
+}
