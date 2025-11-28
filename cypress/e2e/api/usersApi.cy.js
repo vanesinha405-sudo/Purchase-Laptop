@@ -100,7 +100,8 @@ describe('Users API Testing - Complete Suite', () => {
             UsersService.deleteUser(createdUserId, false).then((res) => {
                 expect(res.status).to.be.oneOf([200, 404]);
                 cy.log("Usuario eliminado: " + createdUserId);
-                cy.log("status: " + res.status);
+                cy.log("Status: " + res.status);
+               
             });
         }
     });
