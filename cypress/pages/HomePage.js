@@ -8,6 +8,10 @@ class HomePage {
         cy.contains('Laptops').click();
     }
 
+    goToMonitorsCategory() {
+        cy.contains('Monitors').click();
+    }
+
     selectProduct(productName) {
         cy.contains(productName).click();
     }
